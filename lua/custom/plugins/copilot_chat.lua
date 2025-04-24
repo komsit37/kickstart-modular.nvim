@@ -16,8 +16,10 @@ return {
   },
   cmd = { 'CopilotChat', 'CopilotChatOpen', 'CopilotChatClose' },
   keys = {
-    { '<leader>cc', '<cmd>CopilotChat<CR>', desc = 'Copilot Chat (Visual)' },
-    { '<leader>co', '<cmd>CopilotChatOpen<CR>', desc = 'Copilot Chat Open' },
-    { '<leader>cq', '<cmd>CopilotChatClose<CR>', desc = 'Copilot Chat Close' },
+    { '<leader>ct', '<cmd>CopilotChatToggle<CR>', desc = 'Copilot Chat Toggle' },
+    { '<leader>cr', '<cmd>CopilotChatReset<CR>', desc = 'Copilot Chat Reset' },
+    { '<leader>cm', '<cmd>CopilotChatModels<CR>', desc = 'Copilot Chat Models' },
+    { '<leader>ca', '<cmd>CopilotChatAgents<CR>', desc = 'Copilot Chat Agents' },
+    { '<leader>cp', '<cmd>CopilotChatPrompts<CR>', desc = 'Copilot Chat Prompts' },
   },
 }
